@@ -87,16 +87,55 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
-/* Кнопка */
-.hero-button {
+
+/* Кнопки */
+
+.button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  text-decoration: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+}
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* display: flex; */
-  align-items: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  padding: 10px 32px;
+  min-width: 200px;
+  min-height: 50px;
   text-align: center;
+  border-radius: 4px;
+}
+
+.button-portfolio {
+  display: inline-block;
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  text-align: center;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* section */
@@ -142,12 +181,6 @@ a {
   background-color: var(--secondary-background-color);
 }
 
-/* button */
-.button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
 /* Стили для Portfolio */
 .projects .title {
   color: var(--title-text-color);
@@ -160,20 +193,6 @@ a {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
-}
-button {
-  color: var(--title-text-color);
-  background-color: var(--secondary-background-color);
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-}
-button:hover,
-button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
 }
 
 /* Footer */
