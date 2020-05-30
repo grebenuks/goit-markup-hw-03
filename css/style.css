@@ -45,10 +45,9 @@ a {
 /* Временно, до появления реальных ссылок на соц сети */
 .socialmedia {
   list-style-type: square;
-  padding-bottom: 24px;
   width: 270px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 24px;
 }
 
 /* logo */
@@ -218,22 +217,24 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  padding-top: 30px;
-  padding-bottom: 10px;
   width: 270px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 10px;
 }
 .team .speciality {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
-  padding-top: 10px;
-  padding-bottom: 16px;
   width: 270px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 16px;
+  margin-top: 0;
 }
+
+.team-pic {
+  margin-bottom: 30px;
+}
+
 .team {
   background-color: var(--secondary-background-color);
 }
@@ -304,4 +305,36 @@ address {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+/* Геометрия для портфолио */
+.portfolio-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 93px;
+  padding-bottom: 94px;
+}
+
+.portfolio-list {
+  margin-bottom: 50px;
+}
+
+.dimention {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.title {
+  color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.projects-pic {
+  margin-top: 0;
+  margin-bottom: 30px;
 }

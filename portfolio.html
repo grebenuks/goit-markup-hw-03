@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hw2</title>
+    <title>hw3</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -19,184 +19,196 @@
   <body>
     <header>
       <!-- Навигация -->
-      <div class="container">
+      <div class="header-container">
         <nav>
           <a class="logo" href=""
             >Web<span class="logo-part-nav"> Studio</span></a
           >
           <ul class="site-nav">
-            <li><a href="./index.html" class="link">Студия</a></li>
-            <li>
-              <a href="./portfolio.html" class="link current">Портфолио</a>
-            </li>
+            <li><a href="./index.html">Студия</a></li>
+            <li><a href="" class="link current">Портфолио</a></li>
             <li><a href="" class="link">Контакты</a></li>
           </ul>
-
-          <ul class="contact-nav">
-            <li>
-              <a href="mailto:info@devstudio.com" class="link">
-                <img src="./img/email.svg" alt="конверт" />
-                info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380961111111" class="link">
-                <img src="./img/phone.svg" alt="телефон" /> +38 096 111 11 11</a
-              >
-            </li>
-          </ul>
         </nav>
+        <ul class="contact-nav">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link">
+              <img src="./img/email.svg" alt="конверт" /> info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link">
+              <img src="./img/phone.svg" alt="телефон" /> +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <!-- Главный контейнер -->
     <main>
       <!-- Фильтр проектов -->
-      <section>
-        <ul class="portfolio-list">
-          <li>
-            <button class="button-portfolio">Все</button>
-          </li>
-          <li>
-            <button class="button-portfolio">Веб-сайты</button>
-          </li>
-          <li>
-            <button class="button-portfolio">Приложения</button>
-          </li>
-          <li>
-            <button class="button-portfolio">Дизайн</button>
-          </li>
-          <li>
-            <button class="button-portfolio">Маркетинг</button>
-          </li>
-        </ul>
-        <!-- Проекты -->
-        <ul class="projects">
-          <li>
-            <a href="">
-              <img
-                src="./img/technokryak.jpg"
-                alt="ноутбук"
-                width="370"
-                height="294"
-              />
-              <h3 class="title">Технокряк</h3>
-              <p class="dimention">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./img/new-orlean-gs.jpg"
-                alt="два баскетболиста"
-                width="370"
-                height="294"
-              />
-              <h3 class="title">Постер New Orlean vs Golden Star</h3>
-              <p class="dimention">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./img/seafood.jpg"
-                alt="лосось"
-                width="370"
-                height="294"
-              />
-              <h3 class="title">Ресторан Seafood</h3>
-              <p class="dimention">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./img/prime.jpg"
-                alt="наушники"
-                width="370"
-                height="294"
-              />
-              <h3 class="title">Проект Prime</h3>
-              <p class="dimention">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./img/boxes.jpg"
-                alt="две коробки"
-                width="370"
-                height="294"
-              />
-              <h3 class="title">Проект Boxes</h3>
-              <p class="dimention">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./img/inspiration.jpg"
-                alt="аймак"
-                width="370"
-                height="294"
-              />
-              <h3 class="title">Inspiration has no Borders</h3>
-              <p class="dimention">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./img/limited-edition.jpg"
-                alt="открытая книга"
-                width="370"
-                height="294"
-              />
-              <h3 class="title">Издание Limited Edition</h3>
-              <p class="dimention">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./img/lab.jpg" alt="бирка" width="370" height="294" />
-              <h3 class="title">Проект LAB</h3>
-              <p class="dimention">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./img/growing-business.jpg"
-                alt="две руки на ноутбуке"
-                width="370"
-                height="294"
-              />
-              <h3 class="title">Growing Business</h3>
-              <p class="dimention">Приложение</p>
-            </a>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="portfolio-container">
+          <ul class="portfolio-list">
+            <li>
+              <button class="button-portfolio">Все</button>
+            </li>
+            <li>
+              <button class="button-portfolio">Веб-сайты</button>
+            </li>
+            <li>
+              <button class="button-portfolio">Приложения</button>
+            </li>
+            <li>
+              <button class="button-portfolio">Дизайн</button>
+            </li>
+            <li>
+              <button class="button-portfolio">Маркетинг</button>
+            </li>
+          </ul>
+          <!-- Проекты -->
+          <ul class="projects">
+            <li>
+              <a href="">
+                <img
+                  src="./img/technokryak.jpg"
+                  alt="ноутбук"
+                  width="370"
+                  height="294"
+                  class="projects-pic"
+                />
+                <h3 class="title">Технокряк</h3>
+                <p class="dimention">Веб-сайт</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./img/new-orlean-gs.jpg"
+                  alt="два баскетболиста"
+                  width="370"
+                  height="294"
+                  class="projects-pic"
+                />
+                <h3 class="title">Постер New Orlean vs Golden Star</h3>
+                <p class="dimention">Дизайн</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./img/seafood.jpg"
+                  alt="лосось"
+                  width="370"
+                  height="294"
+                  class="projects-pic"
+                />
+                <h3 class="title">Ресторан Seafood</h3>
+                <p class="dimention">Приложение</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./img/prime.jpg"
+                  alt="наушники"
+                  width="370"
+                  height="294"
+                  class="projects-pic"
+                />
+                <h3 class="title">Проект Prime</h3>
+                <p class="dimention">Маркетинг</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./img/boxes.jpg"
+                  alt="две коробки"
+                  width="370"
+                  height="294"
+                  class="projects-pic"
+                />
+                <h3 class="title">Проект Boxes</h3>
+                <p class="dimention">Приложение</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./img/inspiration.jpg"
+                  alt="аймак"
+                  width="370"
+                  height="294"
+                  class="projects-pic"
+                />
+                <h3 class="title">Inspiration has no Borders</h3>
+                <p class="dimention">Веб-сайт</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./img/limited-edition.jpg"
+                  alt="открытая книга"
+                  width="370"
+                  height="294"
+                  class="projects-pic"
+                />
+                <h3 class="title">Издание Limited Edition</h3>
+                <p class="dimention">Дизайн</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./img/lab.jpg" alt="бирка" width="370" height="294" />
+                <h3 class="title">Проект LAB</h3>
+                <p class="dimention">Маркетинг</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./img/growing-business.jpg"
+                  alt="две руки на ноутбуке"
+                  width="370"
+                  height="294"
+                  class="projects-pic"
+                />
+                <h3 class="title">Growing Business</h3>
+                <p class="dimention">Приложение</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Футер -->
     <footer>
       <!-- Контакты футера -->
-      <a href="" class="logo"
-        >Web<span class="logo-part-footer"> Studio</span></a
-      >
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
-      <b>Присоединяйтесь</b>
-      <ul class="socialmedia">
-        <li><a href="" aria-lable="Ссылка на Facebook"></a></li>
-        <li><a href="" aria-lable="Ссылка на Twitter"></a></li>
-        <li><a href="" aria-lable="Ссылка на Instagram"></a></li>
-        <li><a href="" aria-lable="Ссылка на LinkedIn"></a></li>
-      </ul>
-      <b>Подпишитесь на рассылку</b>
-      <input type="text" />
-      <a href="" class="button primary">Подписаться</a>
-      <p class="signature">2020 | Developed by GoIT Students</p>
+      <div class="footer-container">
+        <a href="" class="logo footer">
+          Web <span class="logo-part-footer"> Studio </span></a
+        >
+        <address>г. Киев, пр-т Леси Украинки, 26</address>
+        <a class="contact-footer" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="contact-footer" href="tel:+380961111111">
+          +38 096 111 11 11
+        </a>
+        <b class="join"> Присоединяйтесь </b>
+        <ul class="socialmedia">
+          <li><a href="" aria-lable="Ссылка на Facebook"></a></li>
+          <li><a href="" aria-lable="Ссылка на Twitter"></a></li>
+          <li><a href="" aria-lable="Ссылка на Instagram"></a></li>
+          <li><a href="" aria-lable="Ссылка на LinkedIn"></a></li>
+        </ul>
+        <b class="subscribe"> Подпишитесь на рассылку </b>
+        <input type="text" />
+        <a href="" class="button primary"> Подписаться </a>
+        <p class="signature">2020 | Developed by GoIT Students</p>
+      </div>
     </footer>
   </body>
 </html>
