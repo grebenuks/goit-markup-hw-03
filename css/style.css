@@ -262,12 +262,23 @@ address {
   line-height: 1.71;
   color: #ffffff;
   font-style: normal;
+  margin-bottom: 9px;
 }
 .join {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 21px;
+}
+.subscribe {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 21px;
 }
 .contact-footer {
   font-size: 14px;
@@ -484,4 +495,37 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Флексбокс футера */
+
+.footer-container-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.logo.footer {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-footer {
+  display: flex;
+}
+.contact-footer.email {
+  margin-bottom: 10px;
+}
+.join-conteiner {
+  display: flex;
+  flex-direction: column;
+}
+.subscribe-text {
+  display: flex;
+  flex-direction: column;
+}
+.footer-button {
+  display: flex;
+  flex-direction: column;
 }
