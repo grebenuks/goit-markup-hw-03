@@ -96,7 +96,6 @@ a {
 /* Hero */
 .hero {
   text-align: center;
-  padding-top: 94px;
 }
 
 .hero-title {
@@ -337,4 +336,46 @@ address {
 .projects-pic {
   margin-top: 0;
   margin-bottom: 30px;
+}
+
+/* Flexbox */
+.site-nav {
+  display: flex;
+  margin-left: 85px;
+}
+
+/* .site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+} */
+/* .site-nav .item:not(:last-child) {
+  margin-right: 50px;
+} */
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contact-nav {
+  display: flex;
+  margin-left: auto;
+}
+.contact-nav .item + .item {
+  margin-left: 30px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.header-container.nav {
+  justify-content: space-between;
 }
