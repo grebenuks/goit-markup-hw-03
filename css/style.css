@@ -314,11 +314,15 @@ address {
   padding-right: 15px;
 }
 
-/* Геометрия для портфолио */
-.section {
-  padding-top: 93px;
-  padding-bottom: 94px;
+.signature {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 21px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* Геометрия для портфолио */
 
 .portfolio-container {
   margin-left: auto;
@@ -345,12 +349,20 @@ address {
   margin-bottom: 0;
 }
 
-.projects-pic {
-  /* margin-top: 0;
-  margin-bottom: 30px; */
-}
 .card-content {
   padding: 20px 24px;
+  background: var(--primary-white-color);
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 1px solid#eeeeee;
+  border-right: 1px solid#eeeeee;
+  border-bottom: 1px solid#eeeeee;
+}
+
+.projects-pic {
+  border-radius: 5px 5px 0px 0px;
+  display: block;
 }
 
 /* Flexbox */
@@ -475,7 +487,6 @@ address {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 
 .projects .item + .item {
@@ -519,7 +530,7 @@ address {
 .contact-footer.email {
   margin-bottom: 10px;
 }
-.join-conteiner {
+.join-container {
   display: flex;
   flex-direction: column;
 }
@@ -536,7 +547,6 @@ address {
 .socialmedia {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   list-style: none;
   padding-left: 0px;
 }
@@ -545,7 +555,7 @@ address {
   margin-left: 10px;
 }
 
-.team-content-conteiner {
+.team-content-container {
   padding-top: 30px;
   padding-bottom: 24px;
   padding-left: 32px;
