@@ -409,7 +409,7 @@ header {
   margin-left: 30px;
 }
 
-.header-container.nav {
+.header-container {
   justify-content: space-between;
   display: flex;
   align-items: center;
