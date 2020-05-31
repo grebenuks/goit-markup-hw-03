@@ -42,14 +42,6 @@ a {
   color: inherit;
 }
 
-/* Временно, до появления реальных ссылок на соц сети */
-.socialmedia {
-  list-style-type: square;
-  /* width: 270px; */
-  /* text-align: center; */
-  margin-bottom: 24px;
-}
-
 /* logo */
 .logo {
   color: var(--accent-color);
@@ -229,12 +221,16 @@ a {
   margin-top: 0;
 }
 
-.team-pic {
+/* .team-pic {
   margin-bottom: 30px;
-}
+} */
 
 .team {
   background-color: var(--secondary-background-color);
+}
+
+.team-content-conteiner {
+  display: block;
 }
 
 /* Стили для Portfolio */
@@ -292,14 +288,17 @@ address {
 }
 
 /* Геометрия */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .header-container {
   margin-left: auto;
@@ -317,14 +316,17 @@ address {
 }
 
 /* Геометрия для портфолио */
+.section {
+  padding-top: 93px;
+  padding-bottom: 94px;
+}
+
 .portfolio-container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 93px;
-  padding-bottom: 94px;
 }
 
 .portfolio-list {
@@ -530,4 +532,24 @@ address {
 .footer-button {
   display: flex;
   flex-direction: column;
+}
+
+/* Cоц сети */
+.socialmedia {
+  display: flex;
+  /* list-style-type: square; */
+  /* width: 270px; */
+  /* text-align: center; */
+  list-style-type: none;
+}
+
+.socialmedia .social-link-li + .social-link-li {
+  margin-left: 10px;
+}
+
+.team-content-conteiner {
+  padding-top: 30px;
+  padding-bottom: 24px;
+  justify-content: center;
+  align-items: center;
 }
