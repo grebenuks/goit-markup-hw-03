@@ -207,7 +207,6 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* width: 270px; */
   text-align: center;
   margin-bottom: 10px;
 }
@@ -221,9 +220,9 @@ a {
   margin-top: 0;
 }
 
-/* .team-pic {
-  margin-bottom: 30px;
-} */
+.team-pic {
+  display: block;
+}
 
 .team {
   background-color: var(--secondary-background-color);
@@ -426,16 +425,14 @@ address {
 
 .team-list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 .team-list .item + .item {
   margin-left: 30px;
 }
 .team-list .item {
   background-color: var(--primary-white-color);
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12); */
 }
 
 .clients {
@@ -455,8 +452,8 @@ address {
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12); */
   border-radius: 4px;
 }
 
@@ -537,10 +534,10 @@ address {
 /* Cоц сети */
 .socialmedia {
   display: flex;
-  /* list-style-type: square; */
-  /* width: 270px; */
-  /* text-align: center; */
-  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
 }
 
 .socialmedia .social-link-li + .social-link-li {
@@ -550,6 +547,6 @@ address {
 .team-content-conteiner {
   padding-top: 30px;
   padding-bottom: 24px;
-  justify-content: center;
-  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
 }
