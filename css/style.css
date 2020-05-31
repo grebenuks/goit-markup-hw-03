@@ -565,7 +565,6 @@ header {
 .subscribe-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 21px;
 }
 .footer-button {
   display: flex;
