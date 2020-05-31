@@ -164,6 +164,10 @@ a {
   margin-top: 0;
 }
 
+.section.work {
+  border-top: 1px solid #ececec;
+}
+
 .work-title {
   color: var(--title-text-color);
   margin-top: 0;
@@ -287,6 +291,10 @@ address {
 }
 
 /* Геометрия */
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -299,6 +307,7 @@ address {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .header-container {
   margin-left: auto;
   margin-right: auto;
@@ -534,9 +543,10 @@ address {
   display: flex;
   flex-direction: column;
 }
-.subscribe-text {
+.subscribe-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 21px;
 }
 .footer-button {
   display: flex;
